@@ -1,0 +1,31 @@
+{
+	"name": "image-uploader",
+	"version": "1.0.0",
+	"description": "Basic nodejs image uploader.",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/RileySeaburg/nodejs-image-uploader.git"
+	},
+	"keywords": [
+		"Riley",
+		"Seaburg",
+		"Nodejs",
+		"Image",
+		"Uploader"
+	],
+	"author": "Riley Seaburg",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/RileySeaburg/nodejs-image-uploader/issues"
+	},
+	"homepage": "https://github.com/RileySeaburg/nodejs-image-uploader#readme",
+	"dependencies": {
+		"ejs": "^3.1.2",
+		"express": "^4.17.1",
+		"multer": "^1.4.2"
+	}
+}
